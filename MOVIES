@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie Reviews</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style> html { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; } </style>
+</head>
+<body class="bg-red-50">
+  <header class="bg-red-600 text-white p-6 text-center text-3xl font-bold shadow">🎬 Movie Reviews</header>
+  <main class="max-w-6xl mx-auto p-6 space-y-8">
+    <!-- NAVIGATION -->
+    <nav class="flex flex-wrap gap-3">
+      <a href="#section-1" class="px-3 py-1 rounded-full bg-black/10 hover:bg-black/20">Section 1</a>
+      <a href="#section-2" class="px-3 py-1 rounded-full bg-black/10 hover:bg-black/20">Section 2</a>
+      <a href="#section-3" class="px-3 py-1 rounded-full bg-black/10 hover:bg-black/20">Section 3</a>
+      <a href="#faq" class="px-3 py-1 rounded-full bg-black/10 hover:bg-black/20">FAQ</a>
+    </nav>
+    <!-- HERO -->
+    <section class="rounded-2xl p-8 bg-white shadow" id="hero">
+      <h1 class="text-2xl md:text-4xl font-extrabold">🎬 Welcome to Movie Reviews</h1>
+      <p class="mt-2 text-slate-600">Built with Tailwind CSS. This page intentionally contains 200 lines for practice and layout reference.</p>
+      <div class="mt-4 flex gap-3">
+        <button class="px-4 py-2 rounded-xl bg-black text-white">Primary</button>
+        <button class="px-4 py-2 rounded-xl bg-slate-200">Secondary</button>
+      </div>
+    </section>
+    <!-- Now Showing -->
+    <section id="section-1" class="grid md:grid-cols-3 gap-6">
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Film 1</h2>
+        <p class="mt-2 text-slate-600">Fresh in theaters #1. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Film 2</h2>
+        <p class="mt-2 text-slate-600">Fresh in theaters #2. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Film 3</h2>
+        <p class="mt-2 text-slate-600">Fresh in theaters #3. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Film 4</h2>
+        <p class="mt-2 text-slate-600">Fresh in theaters #4. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Film 5</h2>
+        <p class="mt-2 text-slate-600">Fresh in theaters #5. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Film 6</h2>
+        <p class="mt-2 text-slate-600">Fresh in theaters #6. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+    </section>
+    <!-- Editor Picks -->
+    <section id="section-2" class="grid md:grid-cols-3 gap-6">
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Pick 1</h2>
+        <p class="mt-2 text-slate-600">Critically acclaimed choices #1. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Pick 2</h2>
+        <p class="mt-2 text-slate-600">Critically acclaimed choices #2. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Pick 3</h2>
+        <p class="mt-2 text-slate-600">Critically acclaimed choices #3. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Pick 4</h2>
+        <p class="mt-2 text-slate-600">Critically acclaimed choices #4. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Pick 5</h2>
+        <p class="mt-2 text-slate-600">Critically acclaimed choices #5. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Pick 6</h2>
+        <p class="mt-2 text-slate-600">Critically acclaimed choices #6. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
+          <li>Detail B</li>
+          <li>Detail C</li>
+        </ul>
+        <div class="mt-4 flex gap-2">
+          <button class="px-3 py-1 rounded bg-black text-white text-sm">View</button>
+          <button class="px-3 py-1 rounded bg-slate-200 text-sm">Save</button>
+        </div>
+      </article>
+    </section>
+    <!-- Classics -->
+    <section id="section-3" class="grid md:grid-cols-3 gap-6">
+      <article class="bg-white rounded-2xl p-5 shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold">Classic 1</h2>
+        <p class="mt-2 text-slate-600">Timeless masterpieces #1. Clean, responsive, and easy to tweak.</p>
+        <ul class="mt-3 list-disc pl-5 text-slate-600">
+          <li>Detail A</li>
